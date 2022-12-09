@@ -7,6 +7,7 @@ import requests
 from urllib.parse import urlparse, parse_qs
 
 TOKEN = environ.get('BOT_TOKEN')
+BOT_TOKEN = "5592788142:AAEdZk47itftPBFkzmc-7niYTP3ui2Oh8eU"
 
 def start(update, context):
     update.message.reply_text("Hello folks! I will bypass the shortlinks and Generate Direct GDrive Link")
